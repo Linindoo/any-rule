@@ -24,12 +24,13 @@ const badges = [
 
 let content = `# 正则大全  ${badges.join(' ')}
 
-支持**web** / **vscode插件**2种查询方式.
+🦕支持**web** / **vscode** / **idea** / **Alfred Workflow**多平台
 
 ## :rocket:web版本
 https://any86.github.io/any-rule/
 
 ## 🍭vscode插件
+
 ### 安装
 vscode应用商店中搜索"**any-rule**".
 
@@ -68,6 +69,11 @@ vscode应用商店中搜索"**any-rule**".
 **注意**: 图解直接使用了https://regexper.com, 在此对作者表示敬意和感谢.
 </details>
 
+## 社区版本
+[idea版](https://github.com/zhoriya/idea-rule)
+
+[Alfred Workflow版](https://github.com/cccyb/workflows)
+
 ## :fire:关于PR
 欢迎大家PR, 步骤如下:
 1. **正则**请在**packages/www/src/RULES.js**中添加.
@@ -76,25 +82,6 @@ vscode应用商店中搜索"**any-rule**".
 4. 请务必提交到**develop**分支.
 
 在此感谢大家对**any-rule**做出的贡献! 
-
-## 👽主要开发者
-按照加入时间排序
-<table>
-    <tr>
-        <td>
-            <a href="https://github.com/MrTenger"><img width="60" src="https://avatars3.githubusercontent.com/u/10781715?s=60&v=4"></a>
-        </td>
-        <td>
-            <a href="https://github.com/giraffeComing"><img width="60" src="https://avatars2.githubusercontent.com/u/14800669?s=460&v=4"></a>
-        </td>
-        <td>
-            <a href="https://github.com/microud"><img width="60" src="https://avatars1.githubusercontent.com/u/10163257?s=60&v=4"></a>
-        </td>
-        <td>
-            <a href="https://github.com/52cik"><img width="60" src="https://avatars0.githubusercontent.com/u/5033310?s=60&v=4"></a>
-        </td>
-    </tr>
-</table>
 
 ## 🍔正则
 `;
